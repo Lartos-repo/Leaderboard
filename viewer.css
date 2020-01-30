@@ -6,9 +6,10 @@
 	 min-height: 400;
 	 height: 90vh;
 	 margin: 10;
-	background: /*linear-gradient(to top, #f39264 0%, #f2606f 100%);*/
+	background:/*linear-gradient(to top, #f39264 0%, #f2606f 100%);*/
 	 color: #fff;
 	 font-family: 'Open Sans', sans-serif;
+	
 }
 
 .leaderboard p{
@@ -28,6 +29,7 @@ a{
 }
 :hover{
     color:#ba4e14;
+    font-weight:bolder;
 }
 
 /*-------------------- Leaderboard --------------------*/
@@ -40,16 +42,27 @@ a{
 	 height: 346px;
 	 background: linear-gradient(to bottom, #3a404d, #181c26);
 	 border-radius: 10px;
+	
 	 /*box-shadow: 0 7px 30px rgba(62, 9, 11, .3);*/
 }
  .leaderboard h1 {
      font-family: 'Playfair Display', serif;
     font-weight:700;
-	 font-size: 38px;
+	 font-size: 35px;
 	 color: #e1e1e1;
-	 padding: 30px 13px 10px;
+	 padding: 20px 13px 0px;
 	 text-align:center;
+	 
 }
+ svg {
+      width: 25px;
+      height: 26px;
+      position: inherit;
+      top: 3px;
+      margin-right: 6px;
+      vertical-align: baseline;
+      padding: 0px;
+    }
 
  .leaderboard h2 {
 	 font-size: 12px;
@@ -63,6 +76,7 @@ a{
 
  .leaderboard ul {
      
+    font-weight:700;
 	 counter-reset: leaderboard;
 	 list-style-type: none;
 	 display:inline;
@@ -88,12 +102,13 @@ a{
 	 width: 20px;
 	 height: 20px;
 	 line-height: 20px;
-	 color: #3dbbb7;
-	 background: #fff;
+	 color: #114746;
+	 background: #e6dcdc;
 	 border-radius: 20px;
 	 text-align: center;
 }
  .leaderboard ul li mark {
+     
 	 position: absolute;
 	 z-index: 2;
 	 top: 0;
@@ -145,10 +160,11 @@ a{
 	 opacity: 0;
 }
  .leaderboard ul li:nth-child(1) {
-	 background: #3dbbb7;
+     
+	 background: #cfa709;
 }
  .leaderboard ul li:nth-child(1)::after {
-	 background: #3dbbb7;
+	 background: #f5c816;
 }
  .leaderboard ul li:nth-child(2) {
 	 background: #1fa8b0;
@@ -165,7 +181,7 @@ a{
 	 background: #008080;
 }
  .leaderboard ul li:nth-child(3)::after {
-	 background: #008080;
+	 background: #1fa8b0;
 	 box-shadow: 0 1px 0 rgba(0, 0, 0, .11);
 }
  .leaderboard ul li:nth-child(3) mark::before, .leaderboard ul li:nth-child(3) mark::after {
