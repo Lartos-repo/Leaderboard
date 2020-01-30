@@ -3,4 +3,4 @@ Things I know: - Java
                - some JavaScript
                - how to fake to know thing
 
-Follow along my journey to the unknown lands of Twitch full stack developement but not really full stack, because in this application I really do not want to have to host a server.
+Follow along my journey to the unknown lands of Twitch full stack developement (but not really full stack, because in this application I really do not want to have to host a server.)
