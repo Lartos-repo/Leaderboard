@@ -1,7 +1,10 @@
 # WELCOME 
 ### people who cant find anything usefull on the internet
 
-So I am trying to figure out how to build a Twitch extension, however I have pretty much no web-programming experience.
+So I am trying to figure out how to build a Twitch extension, however I have pretty much no web-programming experience.  
+I wanted the extension to be a Bits-leaderboard or some kind of cool little thing. I don't want to spend an money and I want the extension being able to get installed by every streamer.  
+You will see how this went as I update this post.  
+
 Things I know:    
 							* Java	  	  
               * some JavaScript  
